@@ -89,12 +89,12 @@ a {
 
 .main-container {
 	max-width: 960px;
-	max-height: 100%;
+	min-height: calc(100% - 80px);
 	margin: 0 auto;
 
 	/* Equal to height of footer */
 	/* But also accounting for potential marging-bottom of last child */
-	margin-bottom: 150px;
+	margin-bottom: -85px;
 }
 
 .main-content {
@@ -106,6 +106,10 @@ a {
 	background-color: #ffffff;
 }
 
+.img-container {
+	text-align: center;
+	max-width: 500px;
+}
 .content-header, .contact-header {
 	color: #4aaaa5;
 	background-color: #ffffff;
@@ -174,7 +178,7 @@ a {
 }
 
 .icons {
-	width: 65px;
+	width: 55px;
 	margin-right: 6px;
 }
 
